@@ -33,8 +33,10 @@ elif secenek_1 == 2 :
       harf_sayı = int(input("Atlanan Harf Sayısını Giriniz :  "))
       cipher = CaesarCipher(metin,offset=harf_sayı)
       print(cipher.encoded)
-   if secenek == 2:
+   elif secenek == 2:
       hash = input("Şifrelenmiş Metini Giriniz :  ")
       harf_sayı = int(input("Atlanan Harf Sayısını Giriniz :  "))
       cipher = CaesarCipher(hash,offset=harf_sayı)
       print(cipher.decoded)
+   else :
+      print("Hata! Lütfen Seçeneklerden Birini Giriniz :  ")
