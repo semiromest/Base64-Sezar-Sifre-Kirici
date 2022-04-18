@@ -12,7 +12,7 @@ print("[1] Base64 Şifre Çözücü Ve Şifreleyici" + "\n" + "[2] Sezar Şifre 
 secenek_1 = int(input("## Lütfen Yapmak İstediğiniz İşlemi Seçiniz ## "))
 if secenek_1 == 1 :
    print("[1] Metin Şifreleme" + "\n" + "[2] Şifre Çözücü ")
-   secenek = input("## Lütfen Yapmak İstediğiniz İşlemi Seçiniz ## ")
+   secenek = int(input("## Lütfen Yapmak İstediğiniz İşlemi Seçiniz ## "))
 
    if secenek == 1:
       metin = input("Şifrelemek İstediğiniz Metni Giriniz :  ").encode('utf-8')
